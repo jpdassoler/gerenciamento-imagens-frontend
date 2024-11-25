@@ -24,10 +24,11 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "npx parcel --port 8000 index.html",
+    "dev": "npx parcel --port 8080 index.html",
     "test": ""
   },
-  "devDependencies": {
-    "parcel": "^2.12.0"
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "parcel": "^2.13.0"
   }
 }
